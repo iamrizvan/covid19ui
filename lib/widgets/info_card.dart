@@ -76,7 +76,7 @@ class InfoCard extends StatelessWidget {
                                       style: TextStyle(fontSize: 12, height: 2))
                                 ]))),
                         Expanded(
-                          child: LineReportChart(),
+                          child: LineReportChart(color: iconColor,),
                         )
                       ],
                     ))
